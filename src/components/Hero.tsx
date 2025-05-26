@@ -21,17 +21,6 @@ const Hero = () => {
 
       <div className="container-max section-padding relative z-10">
         <div className="text-center max-w-4xl mx-auto">
-          {/* Logo */}
-          <div className="mb-8 flex justify-center">
-            <div className="relative">
-              <img 
-                src="/lovable-uploads/cb4ef533-dab9-43cc-a7de-dc5a991a9015.png" 
-                alt="Architechs Logo" 
-                className="h-20 w-20 animate-float"
-              />
-            </div>
-          </div>
-
           {/* Main heading */}
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight animate-fade-up">
             Empowering businesses through 

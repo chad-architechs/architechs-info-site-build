@@ -1,4 +1,3 @@
-
 import { User, Award, Target } from 'lucide-react';
 
 const About = () => {
@@ -20,8 +19,24 @@ const About = () => {
             </p>
             
             <p className="text-lg text-slate-200 leading-relaxed">
-              Led by <strong className="text-white">Chad La Vita</strong>, a seasoned software architect 
-              and hands-on CTO, we bring strategic thinking and engineering precision to every engagement.
+              Beyond traditional consulting, we also partner with companies through ownership 
+              and tech investment opportunities. For ventures that align with our vision and 
+              expertise, we offer strategic partnerships where we invest our technical capabilities 
+              in exchange for partial ownership, creating long-term value for both parties.
+            </p>
+
+            <p className="text-lg text-slate-200 leading-relaxed">
+              Led by <strong className="text-white">Chad La Vita</strong>, who brings 11 years 
+              of software development experience spanning banking systems, escrow payment platforms, 
+              claims industry management systems, AI integration, and company automation solutions. 
+              As a seasoned software architect and hands-on CTO, Chad combines strategic thinking 
+              with engineering precision for every engagement.
+            </p>
+
+            <p className="text-lg text-slate-200 leading-relaxed">
+              We've successfully transformed old-school companies from using multiple disparate 
+              applications to streamlined, all-in-one systems that dramatically boost productivity 
+              and operational efficiency.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-8">
