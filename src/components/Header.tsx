@@ -24,32 +24,32 @@ const Header = () => {
               alt="Architechs Logo" 
               className="h-8 w-8"
             />
-            <span className="text-xl font-bold text-navy-800">Architechs</span>
+            <span className="text-xl font-bold text-white">Architechs</span>
           </div>
           
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
             <button 
               onClick={() => scrollToSection('about')}
-              className="text-navy-700 hover:text-navy-900 transition-colors"
+              className="text-slate-200 hover:text-white transition-colors"
             >
               About
             </button>
             <button 
               onClick={() => scrollToSection('services')}
-              className="text-navy-700 hover:text-navy-900 transition-colors"
+              className="text-slate-200 hover:text-white transition-colors"
             >
               Services
             </button>
             <button 
               onClick={() => scrollToSection('why-choose')}
-              className="text-navy-700 hover:text-navy-900 transition-colors"
+              className="text-slate-200 hover:text-white transition-colors"
             >
               Why Choose Us
             </button>
             <button 
               onClick={() => scrollToSection('contact')}
-              className="text-navy-700 hover:text-navy-900 transition-colors"
+              className="text-slate-200 hover:text-white transition-colors"
             >
               Contact
             </button>
@@ -59,7 +59,7 @@ const Header = () => {
           <Button
             variant="ghost"
             size="icon"
-            className="md:hidden"
+            className="md:hidden text-white hover:text-slate-200"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
             {isMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
@@ -72,25 +72,25 @@ const Header = () => {
             <nav className="flex flex-col space-y-3">
               <button 
                 onClick={() => scrollToSection('about')}
-                className="text-navy-700 hover:text-navy-900 transition-colors text-left"
+                className="text-slate-200 hover:text-white transition-colors text-left"
               >
                 About
               </button>
               <button 
                 onClick={() => scrollToSection('services')}
-                className="text-navy-700 hover:text-navy-900 transition-colors text-left"
+                className="text-slate-200 hover:text-white transition-colors text-left"
               >
                 Services
               </button>
               <button 
                 onClick={() => scrollToSection('why-choose')}
-                className="text-navy-700 hover:text-navy-900 transition-colors text-left"
+                className="text-slate-200 hover:text-white transition-colors text-left"
               >
                 Why Choose Us
               </button>
               <button 
                 onClick={() => scrollToSection('contact')}
-                className="text-navy-700 hover:text-navy-900 transition-colors text-left"
+                className="text-slate-200 hover:text-white transition-colors text-left"
               >
                 Contact
               </button>

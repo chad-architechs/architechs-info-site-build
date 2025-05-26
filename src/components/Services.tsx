@@ -32,12 +32,12 @@ const Services = () => {
   ];
 
   return (
-    <section id="services" className="py-20 bg-gradient-to-br from-slate-50 to-navy-50">
+    <section id="services" className="py-20 bg-gradient-to-br from-navy-900 to-slate-blue-900">
       <div className="container-max section-padding">
         <div className="text-center mb-16">
-          <h2 className="text-3xl lg:text-4xl font-bold text-navy-800 mb-6">Our Services</h2>
-          <div className="w-24 h-1 bg-slate-blue-600 mx-auto mb-4"></div>
-          <p className="text-lg text-navy-600 max-w-2xl mx-auto">
+          <h2 className="text-3xl lg:text-4xl font-bold text-white mb-6">Our Services</h2>
+          <div className="w-24 h-1 bg-slate-blue-400 mx-auto mb-4"></div>
+          <p className="text-lg text-slate-200 max-w-2xl mx-auto">
             Comprehensive software solutions tailored to your business needs
           </p>
         </div>
@@ -48,18 +48,18 @@ const Services = () => {
             return (
               <Card 
                 key={index} 
-                className="group hover:shadow-xl transition-all duration-300 border-0 bg-white/80 backdrop-blur-sm hover:bg-white hover:-translate-y-2"
+                className="group hover:shadow-xl transition-all duration-300 border border-white/10 bg-navy-800/50 backdrop-blur-sm hover:bg-navy-700/50 hover:-translate-y-2"
               >
                 <CardHeader className="text-center pb-4">
-                  <div className="mx-auto mb-4 w-16 h-16 bg-gradient-to-br from-slate-blue-500 to-navy-600 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                  <div className="mx-auto mb-4 w-16 h-16 bg-gradient-to-br from-slate-blue-500 to-slate-blue-700 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                     <IconComponent className="h-8 w-8 text-white" />
                   </div>
-                  <CardTitle className="text-xl font-bold text-navy-800 group-hover:text-slate-blue-700 transition-colors">
+                  <CardTitle className="text-xl font-bold text-white group-hover:text-slate-blue-300 transition-colors">
                     {service.title}
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <CardDescription className="text-navy-600 leading-relaxed">
+                  <CardDescription className="text-slate-300 leading-relaxed">
                     {service.description}
                   </CardDescription>
                 </CardContent>
