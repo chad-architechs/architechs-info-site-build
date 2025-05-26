@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,31 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Architechs brand colors
+				'navy': {
+					50: '#f0f4f8',
+					100: '#d9e6f0',
+					200: '#b3cde0',
+					300: '#8db4d0',
+					400: '#679bc0',
+					500: '#4682b0',
+					600: '#2c5aa0',
+					700: '#1e3a5f',
+					800: '#152a47',
+					900: '#0c1a2f'
+				},
+				'slate-blue': {
+					50: '#f5f6fa',
+					100: '#ebedf5',
+					200: '#d2d7eb',
+					300: '#a8b2d1',
+					400: '#7888b7',
+					500: '#5466a0',
+					600: '#425188',
+					700: '#37426f',
+					800: '#30395d',
+					900: '#2b334f'
 				}
 			},
 			borderRadius: {
@@ -84,11 +110,21 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'float': {
+					'0%, 100%': { transform: 'translateY(0px)' },
+					'50%': { transform: 'translateY(-10px)' }
+				},
+				'fade-up': {
+					'0%': { opacity: '0', transform: 'translateY(30px)' },
+					'100%': { opacity: '1', transform: 'translateY(0)' }
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'float': 'float 3s ease-in-out infinite',
+				'fade-up': 'fade-up 0.6s ease-out forwards'
 			}
 		}
 	},
